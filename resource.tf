@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "storeterra" {
+resource "azurerm_resource_group" "storeterra1" {
 
     name     = "example-resources"
 
@@ -6,7 +6,7 @@ resource "azurerm_resource_group" "storeterra" {
 
 }
  
-resource "azurerm_storage_account" "saterra" {
+resource "azurerm_storage_account" "saterra1" {
 
     name                     = "terrastoragesmeghana"
 
